@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -13,8 +16,8 @@ header {
 }
 
 .logo img {
-  width: 5vw;
-  height: 4.5vw;
+  width: 6vw;
+  height: 6vw;
 }
 
 .logo p {
@@ -42,7 +45,106 @@ nav a {
   color: #7c7c7c;
   &:hover {
     color: black;
-    padding-bottom: 1vw;
+    padding-bottom: 2.8vw;
     border-bottom: solid #5094f2 0.5vw;
   }
+}
+
+/*Main Image*/
+.phone-image {
+  display: flex;
+  justify-content: center;
+}
+.phone-image img {
+  width: 100%;
+}
+
+/*Popular Section with Icons*/
+.popular {
+  display: flex;
+  justify-content: center;
+}
+.popular-item {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+  margin: 3vw;
+}
+
+.popular-item h3 {
+  color: #5094f2;
+  text-align: center;
+  font-size: 2vw;
+  margin: 0;
+}
+
+.popular-item p {
+  text-align: center;
+  color: #7c7c7c;
+  font-size: 1.5vw;
+  margin: 5% 0;
+}
+
+.popular-item img {
+  width: 70%;
+}
+
+/* The Shopping Cart and Bullet Text*/
+.shopping-cart {
+  display: flex;
+  justify-content: space-around;
+
+  border-bottom: solid #dfdfdf 0.01vw;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart img {
+  width: 60%;
+}
+
+@media (min-width: 768px) {
+  .cart img {
+    width: 100%;
+  }
+}
+
+.cart h2 {
+  color: #7c7c7c;
+  font-size: 3vw;
+}
+
+/*Bullet Text*/
+.bullet-text {
+  display: flex;
+  flex-direction: column;
+  color: #7c7c7c;
+  margin: 5vw 0 0 0;
+}
+
+.bullet-text h3 {
+  font-size: 2.5vw;
+  margin-bottom: 0;
+}
+.bullet-text ul {
+  padding-left: 0;
+  width: 100%;
+}
+
+.bullet-text ul li {
+  padding: 1vw 0;
+  list-style: none;
+  font-size: 1.5vw;
+}
+
+/*Footer*/
+footer p {
+  text-align: center;
+  color: #7c7c7c;
+  font-size: 1.3vw;
+
+  padding: 1vw;
 }
