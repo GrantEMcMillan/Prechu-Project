@@ -103,7 +103,7 @@ nav a {
   align-items: center;
 }
 .cart img {
-  width: 65%;
+  width: 60%;
 }
 
 @media (min-width: 768px) {
@@ -131,7 +131,6 @@ nav a {
 }
 .bullet-text ul {
   padding-left: 0;
-  width: 100%;
 }
 
 .bullet-text ul li {
