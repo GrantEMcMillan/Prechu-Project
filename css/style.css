@@ -6,8 +6,8 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  height: 10vw;
-  margin: 0 10%;
+
+  margin: 1% 10%;
 }
 /*Left side of the header*/
 .logo {
@@ -22,19 +22,13 @@ header {
 
 .logo p {
   font-size: 5vw;
+  margin: 0;
 }
 
 /*Right side of the header*/
 nav ul {
-  margin-bottom: 2vw;
+  margin-bottom: 0;
 }
-
-@media (min-width: 768px) {
-  nav ul {
-    margin-bottom: 0;
-  }
-}
-
 nav li {
   display: inline;
   font-size: 2vw;
@@ -45,7 +39,7 @@ nav a {
   color: #7c7c7c;
   &:hover {
     color: black;
-    padding-bottom: 2.8vw;
+    padding-bottom: 1.2vw;
     border-bottom: solid #5094f2 0.5vw;
   }
 }
@@ -94,22 +88,18 @@ nav a {
 .shopping-cart {
   display: flex;
   justify-content: space-around;
-  margin: 0 2vw 0 2vw;
+
   border-bottom: solid #dfdfdf 0.01vw;
 }
+
 .cart {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 50%;
 }
 .cart img {
-  width: 60%;
-}
-
-@media (min-width: 768px) {
-  .cart img {
-    width: 100%;
-  }
+  width: 75%;
 }
 
 .cart h2 {
@@ -123,6 +113,7 @@ nav a {
   flex-direction: column;
   color: #7c7c7c;
   margin: 5vw 0 0 0;
+  width: 50%;
 }
 
 .bullet-text h3 {
