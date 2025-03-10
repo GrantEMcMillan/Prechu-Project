@@ -13,6 +13,7 @@ header {
 @media (max-width: 768px) {
   header {
     margin: 1% 2%;
+    justify-content: space-evenly;
   }
 }
 /*Left side of the header*/
@@ -34,6 +35,13 @@ header {
 /*Right side of the header*/
 nav ul {
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    margin-top: auto;
+    padding: 0;
+  }
 }
 nav li {
   display: inline;
