@@ -34,6 +34,12 @@ nav li {
   font-size: 2vw;
   margin: 1vw;
 }
+
+@media (max-width: 768px) {
+  nav li {
+    font-size: 3vw;
+  }
+}
 nav a {
   text-decoration: none;
   color: #7c7c7c;
@@ -41,6 +47,12 @@ nav a {
     color: black;
     padding-bottom: 1.2vw;
     border-bottom: solid #5094f2 0.5vw;
+  }
+}
+
+@media (max-width: 425px) {
+  header * {
+    flex-shrink: 0;
   }
 }
 
@@ -135,6 +147,5 @@ footer p {
   text-align: center;
   color: #7c7c7c;
   font-size: 1.3vw;
-
   padding: 1vw;
 }
