@@ -10,9 +10,9 @@ header {
   margin: 1% 10%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   header {
-    margin: 1% 2%;
+    margin: 2% 2%;
     justify-content: space-evenly;
   }
 }
@@ -37,7 +37,7 @@ nav ul {
   margin-bottom: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   nav ul {
     margin: 0;
     padding: 0;
@@ -49,7 +49,7 @@ nav li {
   margin: 1vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   nav li {
     font-size: 4vw;
   }
@@ -79,7 +79,7 @@ nav a {
   justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .popular {
     flex-direction: column;
     align-items: center;
@@ -92,7 +92,7 @@ nav a {
   align-items: center;
   margin: 3vw;
 }
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .popular-item {
     width: 75%;
   }
@@ -105,7 +105,7 @@ nav a {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .popular-item h3 {
     font-size: 5vw;
   }
@@ -118,7 +118,7 @@ nav a {
   margin: 5% 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .popular-item p {
     font-size: 3vw;
   }
@@ -136,7 +136,7 @@ nav a {
   border-bottom: solid #dfdfdf 0.01vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .shopping-cart {
     flex-direction: column;
     align-items: center;
@@ -150,7 +150,7 @@ nav a {
   width: 50%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .cart {
     width: 75%;
   }
@@ -159,7 +159,7 @@ nav a {
   width: 75%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .cart img {
     width: 100%;
   }
@@ -170,7 +170,7 @@ nav a {
   font-size: 3vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .cart h2 {
     font-size: 5vw;
   }
@@ -185,7 +185,7 @@ nav a {
   width: 50%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .bullet-text {
     width: 75%;
   }
@@ -196,7 +196,7 @@ nav a {
   margin-bottom: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .bullet-text h3 {
     font-size: 4vw;
   }
@@ -211,7 +211,7 @@ nav a {
   font-size: 1.5vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .bullet-text ul li {
     font-size: 3vw;
   }
@@ -225,7 +225,7 @@ footer p {
   padding: 1vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   footer p {
     font-size: 3vw;
   }
