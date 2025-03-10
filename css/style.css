@@ -39,7 +39,7 @@ nav ul {
 
 @media (max-width: 768px) {
   nav ul {
-    margin-top: auto;
+    margin: 0;
     padding: 0;
   }
 }
