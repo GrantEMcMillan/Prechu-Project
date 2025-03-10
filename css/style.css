@@ -50,12 +50,6 @@ nav a {
   }
 }
 
-@media (max-width: 425px) {
-  header * {
-    flex-shrink: 0;
-  }
-}
-
 /*Main Image*/
 .phone-image {
   display: flex;
@@ -70,12 +64,24 @@ nav a {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .popular {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .popular-item {
   display: flex;
   width: 25%;
   flex-direction: column;
   align-items: center;
   margin: 3vw;
+}
+@media (max-width: 768px) {
+  .popular-item {
+    width: 75%;
+  }
 }
 
 .popular-item h3 {
@@ -85,11 +91,23 @@ nav a {
   margin: 0;
 }
 
+@media (max-width: 768px) {
+  .popular-item h3 {
+    font-size: 5vw;
+  }
+}
+
 .popular-item p {
   text-align: center;
   color: #7c7c7c;
   font-size: 1.5vw;
   margin: 5% 0;
+}
+
+@media (max-width: 768px) {
+  .popular-item p {
+    font-size: 3vw;
+  }
 }
 
 .popular-item img {
@@ -104,19 +122,44 @@ nav a {
   border-bottom: solid #dfdfdf 0.01vw;
 }
 
+@media (max-width: 768px) {
+  .shopping-cart {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .cart {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50%;
 }
+
+@media (max-width: 768px) {
+  .cart {
+    width: 75%;
+  }
+}
 .cart img {
   width: 75%;
+}
+
+@media (max-width: 768px) {
+  .cart img {
+    width: 100%;
+  }
 }
 
 .cart h2 {
   color: #7c7c7c;
   font-size: 3vw;
+}
+
+@media (max-width: 768px) {
+  .cart h2 {
+    font-size: 5vw;
+  }
 }
 
 /*Bullet Text*/
@@ -128,9 +171,21 @@ nav a {
   width: 50%;
 }
 
+@media (max-width: 768px) {
+  .bullet-text {
+    width: 75%;
+  }
+}
+
 .bullet-text h3 {
   font-size: 2.5vw;
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .bullet-text h3 {
+    font-size: 4vw;
+  }
 }
 .bullet-text ul {
   padding-left: 0;
@@ -142,10 +197,22 @@ nav a {
   font-size: 1.5vw;
 }
 
+@media (max-width: 768px) {
+  .bullet-text ul li {
+    font-size: 3vw;
+  }
+}
+
 /*Footer*/
 footer p {
   text-align: center;
   color: #7c7c7c;
   font-size: 1.3vw;
   padding: 1vw;
+}
+
+@media (max-width: 768px) {
+  footer p {
+    font-size: 3vw;
+  }
 }
